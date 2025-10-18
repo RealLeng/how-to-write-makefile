@@ -315,7 +315,7 @@ Makefile的规则中的目标可以不止一个，其支持多目标，有可能
 
 targets定义了一系列的目标文件，可以有通配符。是目标的一个集合。
 
-target-pattern是指明了targets的模式，也就是的目标集模式。
+target-pattern是指明了targets的模式，也就是目标集的模式。
 
 prereq-patterns是目标的依赖模式，它对target-pattern形成的模式再进行一次依赖目标的定义。
 
