@@ -420,7 +420,7 @@ make运行时的系统环境变量可以在make开始运行时被载入到Makefi
 
     <target ...> : <variable-assignment>;
 
-    <target ...> : overide <variable-assignment>
+    <target ...> : override <variable-assignment>
 
 <variable-assignment>;可以是前面讲过的各种赋值表达式，如 ``=`` 、 ``:=`` 、 ``+=``
 或是 ``?=`` 。第二个语法是针对于make命令行带入的变量，或是系统环境变量。
